@@ -6,7 +6,7 @@
 
 
     <!--Analytics Tracking id-->
-    <string name="analytic_tracking_id">UA-126547086-1</string>
+    <string name="analytic_tracking_id"></string>
 
 
     <!--Analytics Tracking id-->
@@ -84,15 +84,6 @@
 
 
     <!--// ad ids original-->
-
-    <!--<string name="add_app_id">ca-app-pub-5448714244492510~2251045743</string>-->
-
-    <!--<string name="add_add_id">ca-app-pub-5448714244492510/6636727903</string>-->
-    <!--<string name="add_add_id_two">ca-app-pub-5448714244492510/2314339519</string>-->
-    <!--<string name="add_add_id_three">ca-app-pub-5448714244492510/5678869454</string>-->
-    <!--<string name="add_add_id_four">ca-app-pub-5448714244492510/1356481065</string>-->
-    <!--<string name="home_activity_banner_add_id">ca-app-pub-5448714244492510/7116359614</string>-->
-
 
     <!--// ad ids original-->
 
