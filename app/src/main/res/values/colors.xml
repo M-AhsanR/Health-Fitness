@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimary">#26a658</color>-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_background">#2574a9</color>
+    <color name="log_in">#2574a9</color>
+    <color name="terms_policy">#82aefe</color>
+    <color name="red">#ff5722</color>
+    <color name="comment_line">#c2c2c2</color>
+    <color name="md_grey_200">#EEEEEE</color>
+
+
+    <color name="line">#c2c2c2</color>
+    <color name="light_line">#eeeeee</color>
+    <color name="text_gray">#666666</color>
+    <color name="light_blue">#4d94c3</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="btnBackground">#e7e7e7</color>
+
+
+    <color name="tab_background_selected">#e64a19</color>
+    <color name="tab_background_unselected">#ff5722</color>
+    <color name="green">#109d58</color>
+
+
+    <color name="giggly_status_bar_color">#e64a19</color>
+    <color name="giggly_action_bar_color">#ff5722</color>
+
+</resources>

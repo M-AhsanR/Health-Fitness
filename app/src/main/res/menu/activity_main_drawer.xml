@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_white_icon"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/favourite_icon_white"
+            android:title="Favourites"
+            />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification_icon_white"
+
+            android:title="Notifications"
+            />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_white_icon"
+
+            android:title="Search categories"
+            />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_icon_white"
+            android:title="Settings"
+            />
+
+
+ <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share_icon"
+            android:title="Share App"
+            />
+ <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/rate_us_icon"
+            android:title="Rate Us"
+            />
+
+
+
+
+    </group>
+
+
+
+
+</menu>

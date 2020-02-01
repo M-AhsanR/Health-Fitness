@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Select Source"
+        android:textSize="@dimen/heading_text_size"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line"
+        >
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    >
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="150dp"
+    android:layout_weight="1"
+    >
+    <RelativeLayout
+        android:id="@+id/camera_rel"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera"
+
+            android:layout_centerInParent="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="150dp"
+    android:layout_weight="1"
+    >
+    <RelativeLayout
+        android:id="@+id/gallery_rel"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gallery"
+            android:layout_centerInParent="true"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

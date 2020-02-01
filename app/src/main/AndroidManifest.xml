@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.giggly.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon_"
+        android:label="Giggly"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/app_icon_"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".Activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FeedDetailedActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="28cc51328293b6477e281a30215a3a6313b45827" />
+
+        <activity
+            android:name=".Activity.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.PushNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.TermsOfServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SelectCatagoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.EditCommentActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".Models.MyFireBaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Models.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Activity.InAppPurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.NavigationDrawerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.FavouritesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SearchMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SelectFromSearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ReportProblemActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.giggly.app.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".Activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.MainCategoriesAfterLogin"></activity>
+    </application>
+
+</manifest>

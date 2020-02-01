@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.giggly.app.Fragments.FeedFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            app:tabIndicatorHeight="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabIndicatorColor="@color/white"
+            android:background="@color/giggly_action_bar_color"
+            android:elevation="4dp"
+
+            android:visibility="gone"
+
+
+
+
+
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            ></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@color/giggly_action_bar_color"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/giggly_spell_icon_"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                >
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/update"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/search_img_rel"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    >
+
+                    <ImageView
+                        android:id="@+id/search_img"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/search_white_icon"
+                        android:layout_centerInParent="true"
+                        />
+
+
+
+
+                        />
+                </RelativeLayout>
+
+
+
+
+
+                <RelativeLayout
+                    android:id="@+id/noti_img_rel"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="80dp"
+
+                    >
+
+                    <ImageView
+                        android:id="@+id/noti_img"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/notification_icon_white"
+                        android:layout_centerInParent="true"
+                        />
+
+                    <TextView
+                        android:id="@+id/count_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/badge_background"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:layout_marginLeft="10dp"
+                        android:visibility="gone"
+
+
+
+                        />
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

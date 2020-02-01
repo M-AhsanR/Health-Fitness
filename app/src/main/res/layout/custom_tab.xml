@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="3dp"
+        android:id="@+id/parnt"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        >
+        <ImageView
+            android:id="@+id/tab_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/search_green"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/tab_badge"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+
+        >
+        <TextView
+            android:id="@+id/tab_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:background="@drawable/badge_background"
+
+
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

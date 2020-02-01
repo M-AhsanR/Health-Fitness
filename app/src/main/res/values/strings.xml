@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Giggly</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Analytics Tracking id-->
+    <string name="analytic_tracking_id">UA-126547086-1</string>
+
+
+    <!--Analytics Tracking id-->
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="toast_track_exception">Exception is recorded. Check the Crashes and Exceptions on Google Dashboard!</string>
+    <string name="toast_app_crash">The app will crash now! Check the Crashes and Exceptions on Google Dashboard!</string>
+    <string name="fragment_footer">Fragment is loaded! Check the screen view on Google Analytics Dashboard.</string>
+    <string name="msg_instructions">Click on each button to see the appropriate tracking on Google Analytics</string>
+    <string name="btn_second_screen">Second Screen</string>
+    <string name="btn_send_event">Track Event</string>
+    <string name="btn_exception_tracking">Track Exception</string>
+    <string name="btn_app_crash">Track App Crash</string>
+    <string name="btn_load_fragment">Fragment Tracking</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <!--// for navigation drawer-->
+
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <!--<string-array name="nav_item_activity_titles">-->
+    <!--<item>Home</item>-->
+    <!--<item>Favourites</item>-->
+    <!--<item>Settings</item>-->
+    <!--<item>Notifications</item>-->
+    <!--<item>Help</item>-->
+    <!--<item>Sign out</item>-->
+    <!--</string-array>-->
+
+    <string-array name="nav_item_activity_titles">
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+        <item>Positive Vibes</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+
+    <!--// for navigation drawer-->
+
+
+    <!--// ad ids sample-->
+
+    <string name="add_app_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="add_add_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="add_add_id_two">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="add_add_id_three">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="add_add_id_four">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="home_activity_banner_add_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <!--// ad ids sample-->
+
+
+    <!--// ad ids original-->
+
+    <!--<string name="add_app_id">ca-app-pub-5448714244492510~2251045743</string>-->
+
+    <!--<string name="add_add_id">ca-app-pub-5448714244492510/6636727903</string>-->
+    <!--<string name="add_add_id_two">ca-app-pub-5448714244492510/2314339519</string>-->
+    <!--<string name="add_add_id_three">ca-app-pub-5448714244492510/5678869454</string>-->
+    <!--<string name="add_add_id_four">ca-app-pub-5448714244492510/1356481065</string>-->
+    <!--<string name="home_activity_banner_add_id">ca-app-pub-5448714244492510/7116359614</string>-->
+
+
+    <!--// ad ids original-->
+
+
+</resources>

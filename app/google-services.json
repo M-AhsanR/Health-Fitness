@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53388239252",
+    "firebase_url": "https://giggly-8b10e.firebaseio.com",
+    "project_id": "giggly-8b10e",
+    "storage_bucket": "giggly-8b10e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53388239252:android:092aa69b96339a45",
+        "android_client_info": {
+          "package_name": "com.giggly.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53388239252-9djnmdrjaqnfc8tf5ufc0g07agio68j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJWAejrv7nqhu_ycr_nwDVVlczrZ_rcy8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

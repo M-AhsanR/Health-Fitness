@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SearchMainFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+           android:id="@+id/title"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:orientation="horizontal"
+           android:weightSum="3"
+           android:background="@color/green"
+           >
+
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.3"
+
+               >
+
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/search_white_icon"
+                   android:layout_centerInParent="true"
+                   />
+
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="2.2"
+               >
+
+               <EditText
+                   android:id="@+id/search_edittext"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:hint="Search Catagory"
+                   android:background="@android:color/transparent"
+                   android:layout_centerInParent="true"
+                   android:textColor="@color/white"
+                   android:textColorHint="#bcbebd"
+                   android:textCursorDrawable="@null"
+                   android:textSize="14sp"
+                   android:imeOptions="actionSearch"
+                   android:inputType="text"
+                   android:gravity="left|center"
+                   android:paddingLeft="10dp"
+
+
+
+                   />
+           </RelativeLayout>
+
+           <RelativeLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.5"
+               >
+
+
+           </RelativeLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/line"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#c2c2c2"
+           android:orientation="vertical"
+           android:layout_below="@id/title"
+
+
+           ></LinearLayout>
+
+
+
+       <ProgressBar
+           android:id="@+id/progress"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:visibility="gone"
+           />
+
+
+       <android.support.v4.widget.NestedScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/scrollView"
+           android:layout_below="@id/line"
+           android:scrollbars="vertical"
+           android:fillViewport="true">
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+
+
+               <TextView
+                   android:id="@+id/no_result"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="We didn't find any result for your search."
+                   android:gravity="center"
+                   android:layout_margin="10dp"
+                   android:visibility="gone"
+                   />
+
+
+
+               <android.support.v7.widget.RecyclerView
+                   android:id="@+id/catagory_rv"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+
+
+                   >
+
+               </android.support.v7.widget.RecyclerView>
+
+
+               <ProgressBar
+                   android:id="@+id/progressBar4"
+                   style="?android:attr/progressBarStyle"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:visibility="gone"
+                   android:layout_below="@id/catagory_rv"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginBottom="20dp"
+                   />
+           </RelativeLayout>
+
+
+       </android.support.v4.widget.NestedScrollView>
+
+
+
+
+   </LinearLayout>
+</FrameLayout>
